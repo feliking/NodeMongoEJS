@@ -1,0 +1,23 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.14",
+    "morgan": "^1.9.1",
+    "yarn": "^1.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
